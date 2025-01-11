@@ -1,11 +1,98 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<title>Our Funky HTML Page</title>
-<meta name="description" content="Our first page">
-<meta name="keywords" content="html tutorial template">
-</head>
-<body>
-Content goes here.
-</body>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+            body {
+                font-family: helvetica, arial, sans-serif;
+            }
+            #heading {
+                font-size: 40px;
+                margin-bottom: 10px;
+                color: rgb(179, 14, 179);
+            }
+            #subheading {
+                margin-top: 0px;
+                margin-bottom: 0px;
+                font-size: 25px;
+            }
+            #date {
+                margin-top: 0px;
+                font-size: 18px;
+                background-color: rgb(245, 244, 231);
+            }
+            #rightside {
+                position: fixed;
+                left: 300px;
+                
+            }
+            #leftside {
+                float: left;
+                margin-top: 15px;
+                
+            }
+            #mainpic {
+                width: 280px;
+            }
+            #list {
+                list-style-type: square;
+                list-style-position: inside;
+                margin-top: 5px;
+                padding-left: 3px;
+                padding-right: 3px;
+                padding-top: 3px;
+                padding-bottom: 3px;
+                border: solid 1px;
+                line-height: 20px;
+                
+            }
+            #detailheading {
+                margin-bottom: 0px;
+                font-weight:bold;
+            }
+            #pricebreak {
+                line-height: 20px;
+                margin: 0px;
+                margin-left: 3px;
+                color: rgb(207, 33, 207);
+                text-align: center;
+            }
+            #price {
+                color: rgb(207, 33, 207);
+            }
+            #signup {
+                margin-left: -2px;
+                padding: 5px;
+                font-size: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1 id="heading">Game Invitation</h1>
+        <h2 id="subheading">SAU x W28 Outdoor GBB</h2>
+        <h2 id="date">Event Date - 2025 June 28</h2>
+
+<!-- left side -->
+        <div id="leftside">
+            <img id="mainpic" src="https://upload.wikimedia.org/wikipedia/commons/2/26/MilSim_paintballers_in_camouflage_uniforms.jpg">
+        </div>
+
+<!-- right side -->
+        <div id="rightside">
+            <p id="detailheading">Event Details:</p>
+            <ul id="list">
+                <li>W28 @ Tin Shui Wai</li>
+                <li>Maximum 1.5J</li>
+                <li>Single-fire only</li>
+                <li>GBB only</li>
+                <li>No HPA system</li>
+                <p id="pricebreak">&nbsp<br>
+                Price:<br>
+                $280 per person</p>
+            </ul>
+            <p id="signup"><button id="signup">Sign Up</button></p>
+        </div>        
+    </body>
 </html>
